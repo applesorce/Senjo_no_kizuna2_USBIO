@@ -5,7 +5,8 @@
 
 ## 概要
 以下の３つになります
-１．main
-２．sub
-３．volume
+１．senjo_no_kizuna2_con.ino
+２．promicro_subcontrol.ino
+３．VolumeControlButton.ino
+
 最終的にriviveUSB Advanceとコントローラー、ボリュームコントローラーの3つになります。
