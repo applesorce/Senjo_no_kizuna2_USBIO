@@ -10,3 +10,13 @@
 ３．VolumeControlButton.ino
 
 最終的にriviveUSB Advanceとコントローラー、ボリュームコントローラーの3つになります。
+
+# 調整
+バランス調整等はsenjo_no_kizuna2_con.ino
+LVOLUME
+RVOLUME
+AXLVOLUME
+AYLVOLUME
+AXRVOLUME
+AYRVOLUME
+の比較部分を修正することで値の調整が可能です。
