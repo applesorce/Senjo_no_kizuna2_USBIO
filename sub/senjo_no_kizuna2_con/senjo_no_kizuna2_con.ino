@@ -67,7 +67,7 @@ if (RVOLUME > 380) { //0-1023の間をいい感じに設定すればいい。下
   Serial.println("R_PEDAL");
   digitalWrite(3, LOW);
 } else {
-  digitalWrite(3, HGIGH);
+  digitalWrite(3, HIGH);
 }
 
 //アナログスティック処理(512付近はドリフト対策で入力を無視する)
