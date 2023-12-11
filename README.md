@@ -5,11 +5,10 @@
 
 ## 概要
 以下の３つになります
-１．senjo_no_kizuna2_con.ino
-２．promicro_subcontrol.ino
-３．VolumeControlButton.ino
+１．senjo_no_kizuna2_con.ino(nano用の設定)
+２．promicro_subcontrol.ino(promicro用の設定)
+３．VolumeControlButton.ino(promicroボリュームコントローラー)
 
-最終的にriviveUSB Advanceとコントローラー、ボリュームコントローラーの3つになります。
 
 # 調整
 バランス調整等はsenjo_no_kizuna2_con.ino
@@ -20,3 +19,6 @@ AYLVOLUME
 AXRVOLUME
 AYRVOLUME
 の比較部分を修正することで値の調整が可能です。
+
+# その他
+ソース類は、さーくるりんご汁のUSBIO用に設計されています。
